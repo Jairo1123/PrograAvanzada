@@ -1,0 +1,105 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  color: black;
+}  
+.navbar {
+    background-color: #E69138;
+    height: 80px;       
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    
+    
+    
+  }
+
+  
+  
+  .menu-bars {
+    margin-left: 2rem;
+    font-size: 2rem;
+    background: none;
+  }
+  
+  .nav-menu {
+    background-color: #E69138;
+    width: 250px;
+    height: 100vh;
+    display: flex;
+    justify-content:space-around;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    transition: 850ms;
+  }
+  .search-box{
+    display:flex;
+    width:100%;    
+    justify-content:flex-end;
+    text-align: center;
+    padding:  705px ;
+    
+  }
+  
+  .nav-menu.active {
+    left: 0;
+    transition: 350ms;
+    color:black;
+  }
+  
+  .nav-text {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 8px 0px 8px 16px;
+    list-style: none;
+    height: 60px;
+  }
+  
+  .nav-text a {
+    text-decoration: none;
+    color: #f5f5f5;
+    font-size: 18px;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    border-radius: 4px;
+  }
+  
+  .nav-text a:hover {
+    background-color: #b46b0c;
+  }
+  
+  .nav-menu-items {
+    width: 100%;
+  }
+
+  .MuiSwitch-root{
+    margin-left: 4rem;
+  }
+  
+  .navbar-toggle {
+    background-color: #E69138;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .Buscar{
+    width: 300px;
+  }
+
+  .Switch{
+    border:black;
+    border-radius: 4px;
+    
+  }
